@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2003
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportService", "ReportService\ReportService.csproj", "{231E862D-6509-4701-B706-B7E17887C9B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportService", "ReportService\ReportService.csproj", "{231E862D-6509-4701-B706-B7E17887C9B2}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{CA96146C-735D-4388-BCB2-CDEF1564E951}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportService.Data", "ReportService.Data\ReportService.Data.csproj", "{62A89D0E-BF45-4518-B447-43102037B810}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C1B3CE2A-9DC1-4144-AB6C-2B969588872E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportService.Tests", "Tests\ReportService.Tests\ReportService.Tests.csproj", "{ABB3B259-9AAD-42F6-80D8-27973AFC30F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,20 @@ Global
 		{CA96146C-735D-4388-BCB2-CDEF1564E951}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA96146C-735D-4388-BCB2-CDEF1564E951}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA96146C-735D-4388-BCB2-CDEF1564E951}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A89D0E-BF45-4518-B447-43102037B810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A89D0E-BF45-4518-B447-43102037B810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A89D0E-BF45-4518-B447-43102037B810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A89D0E-BF45-4518-B447-43102037B810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB3B259-9AAD-42F6-80D8-27973AFC30F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB3B259-9AAD-42F6-80D8-27973AFC30F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB3B259-9AAD-42F6-80D8-27973AFC30F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB3B259-9AAD-42F6-80D8-27973AFC30F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABB3B259-9AAD-42F6-80D8-27973AFC30F5} = {C1B3CE2A-9DC1-4144-AB6C-2B969588872E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E26DB0C9-2B15-41D5-8297-1D5A67E43BEB}
